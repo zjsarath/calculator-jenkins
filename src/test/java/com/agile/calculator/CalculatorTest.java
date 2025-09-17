@@ -8,7 +8,7 @@ public class CalculatorTest {
     void addsTwoNumbers() {
         Calculator c = new Calculator();
         int actual = c.add(19, 23);
-        int expected = 41;  // change this later to make a build fail (per lab)
+        int expected = 42;  // change this later to make a build fail (per lab)
         assertEquals(expected, actual);
     }
 }
